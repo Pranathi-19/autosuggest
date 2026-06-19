@@ -1,4 +1,5 @@
 # autosuggest
 verifying my git setup
 
-checking
+checking 
+git commit -a "My changes"
