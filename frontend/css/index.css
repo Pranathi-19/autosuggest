@@ -38,3 +38,16 @@ h1{
 body{
     margin: 0px;
 }
+.card{
+    border: 2px solid black;
+    width: 300px;
+    text-align: center;
+    margin: 40px auto;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+.card img{
+    width: 100%;
+    display: block;
+    border-radius: 8px 8px 0 0;
+}
