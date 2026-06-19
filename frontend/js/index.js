@@ -1,2 +1,2 @@
-alert("Hello, World!");
-console.log("Hello, World");
+alert("Hello from JS");
+console.log("Hello from JS");
