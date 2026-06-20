@@ -22,7 +22,7 @@ function toggle(){
     var user=users[curId];
     document.getElementById("user-img").src=user.image;
     
-    ///name
+    //name
     document.getElementById("user-name").innerText=user.name;
 
     //gender
