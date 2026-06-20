@@ -11,37 +11,20 @@
     <div class="navbar">
         <a href="/">Home</a>
         <a href="/pages/card.html">Card</a>
-        <a href="#" onclick="toggleProfile()">Toggle</a>
+        <a href="/pages/toggle.html">Toggle</a>
         <a href="">Random</a>
     </div>
 
     <div class="card">
-        <img id="profileImage" src="../images/john.png" alt="user image">
-        <h2 id="profileName">John Doe</h2>
-        <p id="profileGender">Male</p>
+        <img id="user-img"
+             src="../images/john.png" alt="user image">
+        <h2 id="user-name">John Doe</h2>
+        <p id="user-gender">Male</p>
+
+        <button onclick="toggle()">Toggle</button>
     </div>
 
-    <script>
-        let isJohn = true;
-
-        function toggleProfile() {
-            const image = document.getElementById("profileImage");
-            const name = document.getElementById("profileName");
-            const gender = document.getElementById("profileGender");
-
-            if (isJohn) {
-                image.src = "../images/zoe.png";
-                name.textContent = "Zoe Clark";
-                gender.textContent = "Female";
-            } else {
-                image.src = "../images/john.png";
-                name.textContent = "John Doe";
-                gender.textContent = "Male";
-            }
-
-            isJohn = !isJohn;
-        }
-    </script>
-
+    <script src="js/index.js"></script>
+    <script src="../js/toggle.js"></script>
 </body>
 </html>
